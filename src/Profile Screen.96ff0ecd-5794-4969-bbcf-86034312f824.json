@@ -48,13 +48,13 @@
             "properties": {
                 "Picture": "mattgram logo",
                 "resizeMode": "stretch",
-                "Height": 84,
-                "Width": 95,
+                "Height": 78,
+                "Width": 93,
                 "Visible": true,
-                "X": 279,
-                "Y": -1,
-                "RelativeX": 279,
-                "RelativeY": -1,
+                "X": 281,
+                "Y": 596,
+                "RelativeX": 281,
+                "RelativeY": 596,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -81,7 +81,7 @@
                 "capInsets": {},
                 "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
                 "position": "absolute",
-                "edgeOffsets": -5.684341886080802e-14
+                "edgeOffsets": 596
             },
             "children": [],
             "id": "e42931e5-a541-463b-b0c3-ac9120b03003",
@@ -1125,11 +1125,11 @@
             "properties": {
                 "FontSize": 18,
                 "Color": "rgba(208, 2, 27, 1)",
-                "Height": 106,
-                "Width": 342,
+                "Height": 111,
+                "Width": 276,
                 "Visible": true,
-                "X": 16,
-                "Y": 568,
+                "X": 0,
+                "Y": 564,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -1158,15 +1158,15 @@
                     "shadowRadius": 0
                 },
                 "position": "absolute",
-                "edgeOffsets": 568,
+                "edgeOffsets": 564.9907836914062,
                 "ParentId": "96ff0ecd-5794-4969-bbcf-86034312f824",
                 "letterSpacing": 0,
                 "textDecorationLine": "none",
                 "textDecorationStyle": "solid",
                 "textDecorationColor": "rgba(0, 0, 0, 1)",
                 "writingDirection": "auto",
-                "RelativeX": 16,
-                "RelativeY": 568
+                "RelativeX": 0,
+                "RelativeY": 564
             },
             "children": [],
             "id": "49d35dc3-c466-44f8-b755-061ece226136",
