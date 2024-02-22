@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Profile App</title>
+    <style>
+        .banner {
+            height: 100px;
+            background-color: #599deb;
+            text-align: center;
+            line-height: 100px;
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .banner::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 75px;
+            background-image: url("mattgram-high-resolution-logo-black.png");
+            background-size: contain;
+        }
+        .profile {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .profile h2 {
+            margin-top: 0;
+        }        
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Thank you for being cool :)</p>
+    <div class="banner"></div>
+    
+    <h2>Profile App</h2>
+    <iframe src="https://thunkable.site/w/bm69YO2CBgC00WLU_Ptip" style="width: 100%; height: calc(100vh - 100px); border: none;"></iframe>
+    
+    <div class="profile" id="profile1">
+        <h2>User 1 Profile</h2>
+        <div id="user1"></div>
+    </div>
+    <div class="profile" id="profile2">
+        <h2>User 2 Profile</h2>
+        <div id="user2"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
