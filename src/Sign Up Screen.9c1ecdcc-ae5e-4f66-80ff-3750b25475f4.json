@@ -42,6 +42,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
+                "Y": 632,
+                "RelativeX": -1,
+                "RelativeY": 632,
+                "position": "absolute",
+                "edgeOffsets": 632,
+                "style": {
+                    "position": "absolute",
+                    "left": "31.693606987279956%",
+                    "top": "81.09499360925047%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "599d2473-87e8-4503-b5fd-ff29f0093415",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -97,8 +127,8 @@
                 "Height": 85,
                 "Width": 305,
                 "Visible": true,
-                "X": 40,
-                "Y": 541.375,
+                "X": 43,
+                "Y": 479,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -127,15 +157,15 @@
                     }
                 },
                 "position": "absolute",
-                "edgeOffsets": 541.375,
+                "edgeOffsets": 479,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "letterSpacing": 0,
                 "textDecorationLine": "none",
                 "textDecorationStyle": "solid",
                 "textDecorationColor": "rgba(0, 0, 0, 1)",
                 "writingDirection": "auto",
-                "RelativeX": 40,
-                "RelativeY": 541.375
+                "RelativeX": 43,
+                "RelativeY": 479
             },
             "children": [],
             "id": "ec0a0a76-32d9-4944-bbf8-328fd38c754d",
@@ -152,8 +182,8 @@
                 "Height": 43,
                 "Width": 159,
                 "Visible": true,
-                "X": 110,
-                "Y": 462.375,
+                "X": 108,
+                "Y": 435,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -184,10 +214,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 462.375,
+                "edgeOffsets": 435.375,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "RelativeX": 110,
-                "RelativeY": 462.375
+                "RelativeX": 108,
+                "RelativeY": 435
             },
             "children": [],
             "id": "2f00798f-b472-4be7-810c-b77d855a556d",
@@ -205,8 +235,8 @@
                 "Height": 60,
                 "Width": 135,
                 "Visible": true,
-                "X": 119.00000000000001,
-                "Y": 381.375,
+                "X": 119,
+                "Y": 365,
                 "style": {
                     "marginTop": 0,
                     "marginBottom": 0,
@@ -237,10 +267,10 @@
                 "Raised": false,
                 "Disabled": false,
                 "position": "absolute",
-                "edgeOffsets": 381.375,
+                "edgeOffsets": 365.375,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "RelativeX": 119.00000000000001,
-                "RelativeY": 381.375
+                "RelativeX": 119,
+                "RelativeY": 365
             },
             "children": [],
             "id": "e78f95a6-cbc7-4175-a0b9-042c4e5e03be",
